@@ -1,0 +1,56 @@
+@import "color";
+
+.Nav{
+    background-color: $primary;
+    .container{
+        display: flex;
+        align-items: center;
+     
+        margin: 0px 1rem 0px 1rem;
+
+        .log{
+            flex-basis: 10%;
+            // border: 1px solid red;
+            img{
+                width: 7rem;
+                margin-left: 3rem;
+            }
+        }
+
+        .details{
+          width: 100%;
+     justify-content: flex-end;
+            margin: 1rem;
+            display: flex;
+            // border: 1px solid red;
+            flex-direction: column;
+           align-items: center;
+           gap: 0;
+
+           h1{
+            margin: 0;
+            font-size: 2rem;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: #fff;
+           }
+           p{
+            margin: 10px 0;
+
+            font-family: sans-serif;
+            font-weight: 200;
+            color: #fff;
+           }
+
+           .contact{
+            span{
+                font-family: sans-serif;
+                margin: 0 1rem;
+                font-weight: 200;
+                color: #fff; 
+            }
+           }
+        }
+    }
+    
+}

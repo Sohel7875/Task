@@ -1,0 +1,112 @@
+@import "color";
+
+.container{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    // border: 1px solid red;
+
+    .section{
+       
+        transform: translate(70.5%, 4%);
+        display: flex;
+        width: 40%;
+        height: 34rem;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $primary;
+        align-items: center;
+        padding: 10px;
+        padding-bottom: 10px;
+        margin: 10px;
+        border-radius: 30px;
+
+        .package{
+            display: flex;
+            width: 70%;
+            height: 28rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffff;
+            border-radius: 30px;
+        
+
+        .inputs{
+            background-color: #ffff;
+            width: 50%;
+          
+            .input{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+
+                .infield{
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    margin: 5px 0;
+                    border: 1px solid black;
+                   
+                    border-radius: 7px;
+
+                    img{
+                        margin: 3px;
+                        width: 18px;
+                        height: 19px;
+                        filter: grayscale(0.5);
+                        opacity: 0.7;
+                    }
+                }
+                
+
+                label{
+                    color: $primary;
+                    font-family: sans-serif;
+                    font-size: 14px;
+                }
+                
+                input{
+                    margin:5px 0;
+                
+                    outline: none;
+                    border-radius: 7px;
+                    outline: none;
+                    border: none;
+                    
+
+                    &::placeholder{
+                        color: rgb(93, 86, 86);
+                    }
+                }
+            }
+
+        }
+
+        button{
+            width: 40%;
+            margin: 3rem 0;
+            height: 2.5rem;
+            border-radius: 20px;
+            font-family: sans-serif;
+            font-size: 1rem;
+            background-color: $primary;
+            color: #ffff;
+            outline: none;
+            font-weight: 700; 
+            &:hover{
+                background-color: $Darkprimary;
+                cursor: pointer;
+          
+          
+            }
+        }
+    }
+}
+
+}

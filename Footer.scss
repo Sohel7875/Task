@@ -1,0 +1,165 @@
+@import "color";
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $primary;
+    position: absolute;
+    bottom: 0;
+
+    .company{
+        // border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        
+       
+        padding:0 1rem;
+       
+
+        span{
+            color: #FFF;  align-self: center;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+
+        }
+        ul{
+            // border: 1px red solid;
+            width: 100%;
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+           
+            li{
+                
+                list-style: none;
+                margin: 5px 0;
+               a{
+                text-decoration: none;
+                color: #FFF;
+                font-family: sans-serif;
+               }
+            }
+        }
+
+
+    }
+    .Support{
+        // border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        align-self: center;
+       
+        padding:0 1rem;
+       
+
+        span{
+            color: #FFF;  align-self: center;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+            margin-left: 0;
+
+        }
+        ul{
+            // border: 1px red solid;
+            width: 100%;
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin-left: 0;
+           
+            li{
+                
+                list-style: none;
+                margin: 5px 0;
+                align-self: flex-start;
+               a{
+                text-decoration: none;
+                color: #FFF;
+                font-family: sans-serif;
+               }
+            }
+        }
+
+
+    }
+    .Legal{
+        // border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+        align-self: center;
+       
+        padding:0 1rem;
+       
+
+        span{
+            color: #FFF;  align-self: center;
+            font-family: sans-serif;
+            font-weight: 900;
+            font-size: 1.5rem;
+            margin-left: 0;
+
+        }
+        ul{
+            // border: 1px red solid;
+            width: 100%;
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            margin-left: 0;
+           
+            li{
+                
+                list-style: none;
+                margin: 5px 0;
+                align-self: flex-start;
+               a{
+                text-decoration: none;
+                color: #FFF;
+                font-family: sans-serif;
+               }
+            }
+        }
+
+
+    }
+    .install{
+    margin-right: 5rem;
+           
+            li{
+                
+                list-style: none;
+                margin: 5px 0;
+                align-self: flex-start;
+               a{
+                text-decoration: none;
+                color: #FFF;  align-self: center;
+                font-family: sans-serif;
+                font-weight: 900;
+                font-size: 1.2rem;
+                margin-right: 1rem;
+               
+            }
+        }
+
+
+    }
+}
